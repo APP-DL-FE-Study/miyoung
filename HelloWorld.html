@@ -1,0 +1,196 @@
+<!DOCTYPE html> <!--현재 문서가 HTML5임을 명시-->
+<html lang="ko"> <!--HTML문서의 루트 요소 정의-->
+    <head> <!--HTML문서의 메타데이터(웹에 직접 표현x) 정의-->
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html">
+        <title>Hello World</title> <!--HTML문서의 제목-->
+    </head>
+    <body> <!--웹 브라우저를 통해 보이는 내용 부분-->
+        <h1>중첩 목록 만들기</h1>
+            <ul>
+                <!-- 첫 번째 목록 -->
+                <li>
+                    <b>과일</b>
+                    <ol>
+                        <li>사과</li>
+                        <li>바나나</li>
+                        <li>오렌지</li>
+                    </ol>
+                </li>
+                <!-- 두 번째 목록-->
+                <li>
+                    <b>채소</b>
+                    <ol>
+                        <li>상추</li>
+                        <li>치커리</li>
+                        <li>양배추</li>
+                    </ol>
+                </li>
+            </ul><br>
+
+        <!-- 연습문제 -->
+        <h1>연습문제</h1>
+        <a href="http://www.hanbit.co.kr">한빛미디어
+            <img src="data:image/png;base64,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" alt="이미지">
+            <img src="Nothing" alt="그림이 존재하지 않습니다." width="300">
+        </a>
+        <br>
+        <a href="http://www.naver.com">네이버</a>
+        <br>
+        <a href="http://www.google.com">구글
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbpgjxEQJDn0hnVWeapZ1VDOGTriu_qPx_g&usqp=CAU alt="이미지">
+            <img src="Nothing" alt="그림이 존재하지 않습니다." width="300">
+        </a>
+        <br>
+        <a href="http://www.sungkyul.ac.kr">성결대학교</a>
+        <br><br>
+
+        <h1>HTML5 Basic</h1>
+        <h2>ITCookbook - HanbitAcademy</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consetetur adipiscing elit.
+            Integer saglittis enim et felis fringiila sit amet vehicula enim tincidunt.
+            Duis turpis velit, auctor eget porta a, consectetur eulsmod mefus.
+            Mauris auctor, augue sed elementum condimentum, sem felis vulputate ligula, ac commodo massa turpis et massa.</p>
+        <br>
+        <p>Phasellus sem totor, volupat vitae euismod eget, saglttis sed ipsum.
+            Aliquam convallis accumsan massa, egestas consequat eros euismod at.
+            In in porta nisi. Nam nec eros velit. Porin vulputate ornare varius.</p>
+        <br>
+
+        <!-- 기본 입력 양식 태그-->
+        <h1>기본 입력 양식 태그</h1>
+            <form>
+                <!-- 사용자가 입력하는 입력 양식 --><!-- type은 다양한 종류 기본 입력 양식 생성, value는 내부 값 지정(화면에 보이도록)-->
+                <input type="text" name="text" value="text"><br>
+                <input type="password" name="password" value="password"><br>
+                <input type="file" name="file" value="file"><br>
+                <input type="checkbox" name="checkbox" value="checkbox"><br>
+                <input type="radio" name="radio" value="radio"><br>
+
+                <!-- 보이지 않는 입력 양식 -->
+                <input type="hidden" name="hidden" value="hidden"><br>
+
+                <!-- 버튼 -->
+                <input type="button" value="button"><br>
+                <input type="reset" value="reset"><br>
+                <input type="submit" value="submit"><br>
+                <input type="image" src="이미지">
+            </form>
+        <br>
+
+        <!-- 여러 대상 중 하나만 선택 -->
+        <form>
+            <table>
+                <tr>
+                    <td><label for="username">이름</label></td>
+                    <td><input id="username" type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <input id="man" type="radio" name="gender" value="m">
+                        <label for="man">남자</label>
+                        <input id="woman" type="radio" name="gender" value="w">
+                        <label for="woman">여자</label>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="가입">
+        </form>
+        <br>
+
+        <!-- select: 하나 또는 여러개 선택 -->
+        <select>
+            <option>김밥</option>
+            <option>떡볶이</option>
+            <option>순대</option>
+            <option>어묵</option>
+        </select>
+        <br>
+
+        <!-- optgruop: 선택 옵션을 그룹으로 -->
+        <select>
+            <optgroup label="HTML5">
+                <option>Multimedia Tag</option>
+                <option>Connectivity</option>
+                <option>Device Access</option>
+            </optgroup>
+            <optgroup label="CSS3">
+                <option>Animation</option>
+                <option>3D Transform</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <!-- fieldset/legend: 연관 있는 양식 그룹으로 묶기 -->
+        <form>
+            <fieldset>
+                <legend>입력 양식</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">이름</label></td>
+                        <td><input id="name" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">이메일</label></td>
+                        <td><input id="mail" type="email"></td>
+                    </tr>
+                </table>
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <!-- 시맨틱 태그-->
+        <div>
+            <h1>HTML5 기본</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">메뉴 - 1</a></li>
+                <li><a href="#">메뉴 - 2</a></li>
+                <li><a href="#">메뉴 - 3</a></li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <h1>Loerm ipsum dolor sit amet</h1>
+                <p>Loerm ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <h1>Loerm ipsum dolor sit amet</h1>
+                <p>Loerm ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div>
+            <span>서울특별시 강서구 내발산동</span>
+        </div>
+
+        <!-- 시맨틱 태그를 이용한 레이아웃 구성 -->
+        <header>
+            <h1>HTML5 기본</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">메뉴 - 1</a></li>
+                <li><a href="#">메뉴 - 2</a></li>
+                <li><a href="#">메뉴 - 3</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h1>Loerm ipsum dolor sit amet</h1>
+                <p>Loerm ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h1>Loerm ipsum dolor sit amet</h1>
+                <p>Loerm ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+        <footer>
+            <address>서울특별시 강서구 마곡동</address>
+        </footer>
+
+
+    </body>
+</html>
